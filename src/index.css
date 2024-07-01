@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+ /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Center the form on the page */
+.centered-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.form-container {
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+h2 {
+  text-align: center;
+}
+
+.radio, sbtn {
+  /*width: 100%;*/
+  margin-top: 10px;
+}
+
+button {
+  background-color:orange;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:darkorange;
+}
+/* dashboard.css 
+
+ul {
+ /* position:fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:none;
+  display:flex;
+  flex-direction: row;
+  /*width: 100%;
+
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li.logout {
+  margin-left: auto;
+}
+
+.active {
+  background-color: green;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #111;
+}
+
+li.dropdown {
+  display: inline-block;
+}*/
+.style{
+  padding: 100%;
+}
