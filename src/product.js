@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './Database/Data'; // Adjust path as per your project structure
+import data from './DataList/datalist'
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
